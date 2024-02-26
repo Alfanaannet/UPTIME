@@ -31,7 +31,7 @@ const client = new Client({
   else file(client);
 });
 
-client.login("MTIxMTQ0NTU3NjczNTEzNzg5Mw.GFVX8H.K3zTydKlLJY-JlaAhvnIbA7N4lWmGVPgxdH5-Q").catch((error) => { console.log((error.message).bold.red) });
+client.login(process.env.TOKEN).catch((error) => { console.log((error.message).bold.red) });
 
 
 module.exports = client;
