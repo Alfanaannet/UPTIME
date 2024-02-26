@@ -31,7 +31,7 @@ const client = new Client({
   else file(client);
 });
 
-client.login(set.TOKEN).catch((error) => { console.log((error.message).bold.red) });
+client.login(process.env.token).catch((error) => { console.log((error.message).bold.red) });
 
 
 module.exports = client;
