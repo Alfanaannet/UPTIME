@@ -10,7 +10,7 @@ module.exports = {
   botPerms: [""],
   cooldown: 5,
   guildOnly: false,
-  ownerOnly: true,
+  ownerOnly: false,
   toggleOff: false,
   nsfwOnly: false,
   maintenance: false,
