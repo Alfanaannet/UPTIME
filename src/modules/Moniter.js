@@ -13,7 +13,7 @@ module.exports = {
       });
       setInterval(async () => {
         fetchProjects(client.projects, client);
-      }, 30000);
+      }, 4000);
     } catch (e) {
       console.log(String(e))
     }
